@@ -1,14 +1,12 @@
 var greet = function(name, drunk) {
-    if (drunk){
-        if(name) {
-            return "hello " + name + " , you look sexy"
-        }
-    } else {
-        if (name) {
-            return "hello " + name;
-        }
+    if (typeof name !== "string"){
+        throw new Error("name should be string")
     }
-    return "No name provided"
+    if (drunk){
+        return "hello " + name + " , you look sexy";
+    } else {
+        return "hello " + name;
+    }
 }
 
 module.exports = greet

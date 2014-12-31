@@ -4,7 +4,7 @@
   "description": "Hello besike. A simple and native greet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "hello-world"
@@ -20,5 +20,9 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/GTxx/besike-node-greet"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
   }
 }

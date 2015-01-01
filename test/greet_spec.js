@@ -2,7 +2,7 @@
 
 describe("greet", function(){
     before(function(){
-        greet = require("../index.js");
+        greet = require("../lib/index.js");
     });
     it("test should require the greet module", function(){
         expect(greet).not.to.be.a('undefined');

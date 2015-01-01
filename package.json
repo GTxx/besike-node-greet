@@ -2,7 +2,7 @@
   "name": "greet",
   "version": "0.0.0",
   "description": "Hello besike. A simple and native greet",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "coffee-script": "^1.8.0",
     "mocha": "^2.1.0"
   }
 }

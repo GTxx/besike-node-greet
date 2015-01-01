@@ -1,0 +1,6 @@
+.npmignore
+.git*
+*.tgz
+test/
+src/
+.idea
